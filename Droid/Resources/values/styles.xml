@@ -24,4 +24,13 @@
     <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
         <item name="colorAccent">#FF4081</item>
     </style>
+
+    
+    <!--CREACION DEL ESTILO PARA DEFINIR LA IMAGEN EN EL SPLASH EN ANDROID-->
+    <style name="Theme.Splash" parent="android:Theme">
+        <item name="android:windowBackground">@drawable/Splash</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    
 </resources>
